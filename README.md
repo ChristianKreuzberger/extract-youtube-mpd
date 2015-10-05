@@ -37,12 +37,12 @@ MPDs usually contain multiple ```AdaptationSet``` XML tags. Those contain a ```M
 
 Within one ```AdaptationSet``` there are multiple ```Representation``` tags, which then contain information for each representation:
 
- * Bitrate (in Kilobit per second)
- * Codec
- * Information for Video Only (in ExtraInformation column of generated output):
- --* Video Width
- --* Video Height
- --* Video Frame Rate
+* Bitrate (in Kilobit per second)
+* Codec
+* Information for Video Only (in ExtraInformation column of generated output):
+ + Video Width
+ + Video Height
+ + Video Frame Rate
 
 
 
